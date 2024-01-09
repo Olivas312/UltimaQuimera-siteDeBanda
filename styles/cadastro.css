@@ -1,0 +1,82 @@
+#cadastroNovoUsuario{
+    width: 50%;
+    margin: 0 auto;
+}
+fieldset{    
+    padding: 1rem;
+    border: solid 2px #008B8B;
+    border-radius: 7px;
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#tituloPrincipal{
+    color:#DC143C ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 2px black;
+}
+label{
+    color:#008B8B ;
+    text-shadow: 1px 1px 1px black;
+    font-size: 18pt;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-bottom: .8rem;
+}
+input{
+    margin-bottom: 1rem;
+}
+#iusuario, #isenha, #isenhaR , #iemail , #iemailR{
+    width: 100%;
+}
+#enterButton{
+        width: 10rem;
+        font-weight: bolder;
+        color: #DC143C;
+        text-shadow: 1px 1px 1px black;
+        background-color: #808080;
+        border: solid 2px #008B8B;
+}
+#user , #passWord , #passWordRepet , #email , #emailR{
+    width: 100%;
+}
+
+#linha{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+#outros{
+    text-align: center;
+}
+
+.logoConta{
+    width: 2.7rem;
+    height: 2.7rem;
+    padding: .1rem;
+    margin-right: 9rem; 
+}
+.retanguloButton{
+    width: 100%;
+    height: 3rem;
+    border: solid 1px #808080;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px black;
+    background-color: #ffffff65;
+}
+#google , #facebook , #twitter{
+    margin-bottom: .01rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginExterno{
+    text-decoration: none;
+    font-size: 22pt;
+    color: #DC143C;
+    text-shadow: 1px 1px 1px black;
+}

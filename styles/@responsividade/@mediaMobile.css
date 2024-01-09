@@ -1,0 +1,199 @@
+
+/* Mobile */
+@media screen and (min-width:320px) and (max-width: 767px) and (orientation: portrait) {
+    #menuNav > #desktopNav{
+        display: none;
+    }
+    #menuNav > #mobileNav{
+        display: block;
+    }
+    #mobileNav{
+        height: fit-content;
+    }
+    .listas{
+        list-style: none;
+    }
+    .listas > a {
+        color: #008B8B;
+        text-decoration: none;
+        display: flex;
+        justify-content: flex-start;
+        gap: 2rem;
+    }
+    #itemDaLista1{
+        position: absolute;
+        left: 0px;
+        top: 125px;
+    }
+    #itemDaLista2{
+        position: absolute;
+        left: 0px;
+        top: 145px;
+    }
+    #itemDaLista3{
+        position: absolute;
+        left: 0px;
+        top: 165px;
+    }
+    #itemDaLista3{
+        position: absolute;
+        left: 0px;
+        top: 165px;
+    }
+    #itemDaLista4{
+        position: absolute;
+        left: 0px;
+        top: 185px;
+    }
+    .myLinks{
+    margin: 0px;
+    position: absolute;
+    left: 0px;
+    top: 205px;
+    }
+    #pag{
+        display: flex !important;
+        flex-flow: row wrap;  
+    }
+    header{
+        width: 30%;
+        height: auto !important;
+        background-color: black;
+    }
+    main{
+        width: 70%;
+        height: auto !important;
+    }
+    #menuNav, #carousel{
+        width: 100%;
+        height: 100vh;
+    }
+    #logo > img {
+        width: 3rem;
+        height: 3rem;
+        position: absolute;
+    }
+    #tituloPrincipal {
+        font-size: 22pt;
+        font-weight: 300; 
+        margin-left: 3.3rem;   
+    }
+    summary::marker{
+        color: transparent;
+
+    }
+    #menuNavIcon{
+        position: absolute;
+        top: 5.5rem;
+        left: .3rem;
+        color: #DC143C;
+    }
+    #carousel{
+        width: 100%;
+    }
+    #retencao{
+        width: 50%;
+    }
+    #conteudoCarousel{
+        width: 100%;
+    }
+    #infinuShow > img{
+        height: 10rem;
+        width: 20rem;
+    }
+    .retencaoCar > img,video,iframe{
+       width: 100%;
+    }
+/* Carousel */
+    #botaoPraTras , #botaoPraFrente{
+        height: 25rem !important;
+        width: 3rem !important;
+        position: absolute;
+        top: 0rem;
+        background-color: rgba(0, 0, 0, 0.349);   
+    }
+    #botaoPraTras{
+        left: 10.5rem;
+    }
+    #botaoPraFrente{
+        right: 2rem;
+    }
+/* Fandom */
+#cadastroButton{
+    margin-left: 0;
+}
+
+    /* Loja */
+
+#catalogo{
+    width: 80%;
+    box-sizing: border-box!important;
+    margin: 0 auto;
+}
+#catalogoProdutos{
+    width: 80%;
+    margin: 0 auto;
+    box-sizing: border-box!important;
+    ;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.cardProduto{
+    width: 5rem;
+    gap: .02rem; 
+    margin-bottom: .01rem;
+    margin-left: .01rem;
+    background-color: rgba(255, 255, 255, 0.391);
+    text-align: center;
+
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.cardProduto > img{
+    width: 2.5rem;
+    padding: .01rem;
+}
+.botaoAdd{
+    width: 2rem;
+    height: 2rem;
+    background-color: rgb(57, 255, 47);
+    border: solid .09rem black;
+    border-radius: .4rem;
+    cursor:pointer ;
+}
+.preco{
+    font-size: 12pt;
+    color:  #DC143C;
+    background-color: black;
+}
+.tituloProduto{
+    font-size: 8pt;
+    font-weight: 900;
+}
+.detalhesProduto{
+    font-size: 8pt;
+}
+.modal-body > img{
+    width: 10rem;
+    height: 10rem;
+}
+/* Sobre Nois */
+.containerCardAll{
+    width: 100%;
+    height: 15rem;
+}
+.saibaMais{
+    margin-top: 1rem;
+    width:245px ;
+    height: 15rem;
+}
+.allBandImg{
+    width: 245px ;
+    height: 10rem;
+}
+
+}

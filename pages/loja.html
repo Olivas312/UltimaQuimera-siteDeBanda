@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Google Fonts Icons -->
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- BootStrap -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+     <!-- Estilo Proprio -->
+     <link rel="stylesheet" href="../styles/geral.css">
+     <link rel="stylesheet" href="../styles/loja.css">
+     <link rel="stylesheet" href="../styles/animacaoQuimera.css">
+     <link rel="shortcut icon" href="../image/ÚltimaQuimera1_files/quimerinha.webp" type="image/x-icon">
+     <!-- Responsividade -->
+     <link rel="stylesheet" href="../styles/@responsividade/@mediaMobile.css">
+     <link rel="stylesheet" href="../styles/@responsividade/@mediaTablet.css">
+     <title>Loja</title>
+</head>
+<body>
+    <div id="pag">
+        <header>
+            <div id="menuNav">
+                <div id="logo"><img id="anda" src="../image/ÚltimaQuimera1_files/quimerinha.webp" alt="Ultima Quimera Logo"></div>
+                <h1 id="tituloPrincipal">Ultima Quimera</h1>
+                
+                <nav id="desktopNav">
+                    <a href="../index.html">Home</a>
+                    <a href="sobreNos.html">Sobre Nós</a>
+                    <a href="loja.html">Loja</a>
+                    <a href="fandom.html">Fandom</a>
+                    <details class="myLinks">
+                      <summary>Nossos Link's</summary>
+                      <ul id="listLinkStyle">
+                        <li><a href="https://www.instagram.com/ultima.quimera/"> Instagram</a></li>
+                        <li><a href="facebook.com/ultquimera">Facebook</a></li>
+                        <li><a href="https://soundcloud.com/ultimaquimera">Sound Cloud</a></li>
+                        <li><a href="https://www.youtube.com/@UltimaQuimera/featured">Youtube</a></li>
+                        <li><a href="open.spotify.com/artist/7z95sd3NcF6VFXrMi7hQEY">Spotfy</a></li>
+                        <li><a href="https://www.deezer.com/br/artist/68820552">Deezer</a></li>
+                      </ul>
+                    </details>
+                  </nav>
+          
+                  <nav id="mobileNav">
+                    <div>
+                      <details>
+                        <summary class="desmarcarSeta"><span id="menuNavIcon" class="material-symbols-outlined">
+                          menu
+                          </span></summary>
+                        <ul>
+                          <li class="listas"><a id="itemDaLista1" href="../index.html">Home</a></li>
+                          <li class="listas"><a id="itemDaLista2" href="sobreNos.html">Sobre Nós</a></li>
+                          <li class="listas"><a id="itemDaLista3" href="loja.html">Loja</a></li>
+                          <li class="listas"><a id="itemDaLista4" href="fandom.html">Fandom</a></li>
+                        </ul>
+                        <details class="myLinks">
+                          <summary>Nossos Link's</summary>
+                            <ul>
+                              <li><a href="https://www.instagram.com/ultima.quimera/"> Instagram</a></li>
+                              <li><a href="facebook.com/ultquimera">Facebook</a></li>
+                              <li><a href="https://soundcloud.com/ultimaquimera">Sound Cloud</a></li>
+                              <li><a href="https://www.youtube.com/@UltimaQuimera/featured">Youtube</a></li>
+                              <li><a href="open.spotify.com/artist/7z95sd3NcF6VFXrMi7hQEY">Spotfy</a></li>
+                              <li><a href="https://www.deezer.com/br/artist/68820552">Deezer</a></li>
+                            </ul>
+                        </details>
+                      </details>
+                    </div>
+                    
+                  </nav>
+          
+                  <nav id="tabletNav">
+                    <a href="../index.html">Home</a>
+                    <a href="sobreNos.html">Sobre Nós</a>
+                    <a href="loja.html">Loja</a>
+                    <a href="fandom.html">Fandom</a>
+                    <details class="myLinks">
+                      <summary>Nossos Link's</summary>
+                      <ul>
+                        <li><a href="https://www.instagram.com/ultima.quimera/"> Instagram</a></li>
+                        <li><a href="facebook.com/ultquimera">Facebook</a></li>
+                        <li><a href="https://soundcloud.com/ultimaquimera">Sound Cloud</a></li>
+                        <li><a href="https://www.youtube.com/@UltimaQuimera/featured">Youtube</a></li>
+                        <li><a href="open.spotify.com/artist/7z95sd3NcF6VFXrMi7hQEY">Spotfy</a></li>
+                        <li><a href="https://www.deezer.com/br/artist/68820552">Deezer</a></li>
+                      </ul>
+                    </details>
+                  </nav>
+            </div>
+        </header>
+        
+        <main>
+            <nav>
+                <div id="carrinho">
+                    <a href="carrinho.html" style="text-decoration: none; color: black;">Carrinho
+                        <img src="../image/Icons/shopping_cart_checkout_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                    </a>
+                </div>
+            </nav>
+            <hr>
+            <section id="catalogo">
+                <div id="catalogoProdutos">
+                    
+                    <!-- Camiseta 1 -->
+                    <div class="cardProduto">
+                        <img src="../image/Produtos/camisa-removebg-preview.png" alt="camiseta Basica">
+                        <div class="cardTextos">
+                            <h4 class="preco">R$100</h4>
+                            <h5 class="tituloProduto">Camisa da Banda Oficial</h5>
+                            <p class="detalhesProduto">Camiseta de alta qualidade com estampa exclusiva </p>
+                        </div>
+                        <div class="botaoAdd">
+                            <buttoon type="button" data-bs-toggle="modal"
+                            data-bs-target="#camisa1Modal"><img src="../image/Icons/iconeCarrinho.png" alt="shoppingCar"></buttoon>
+                        </div>
+                    </div>
+                    <!-- Camiseta 2 -->
+                    <div class="cardProduto">
+                        <img src="../image/Produtos/camisa-removebg-preview.png" alt="camiseta Basica">
+                        <div class="cardTextos">
+                            <h4 class="preco">R$100</h4>
+                            <h5 class="tituloProduto">Camisa da Banda Oficial</h5>
+                            <p class="detalhesProduto">Camiseta de alta qualidade com estampa exclusiva </p>
+                        </div>
+                        <div class="botaoAdd">
+                            <buttoon type="button" data-bs-toggle="modal"
+                            data-bs-target="#camisa2Modal"><img src="../image/Icons/iconeCarrinho.png" alt="shoppingCar"></buttoon>
+                        </div>
+                    </div>
+                    <!-- Camiseta 3 -->
+                    <div class="cardProduto">
+                        <img src="../image/Produtos/camisa-removebg-preview.png" alt="camiseta Basica">
+                        <div class="cardTextos">
+                            <h4  class="preco">R$100</h4>
+                            <h5 class="tituloProduto">Camisa da Banda Oficial</h5>
+                            <p class="detalhesProduto">Camiseta de alta qualidade com estampa exclusiva </p>
+                        </div>
+                        <div class="botaoAdd">
+                            <buttoon type="button" data-bs-toggle="modal"
+                            data-bs-target="#camisa3Modal"><img src="../image/Icons/iconeCarrinho.png" alt="shoppingCar"></buttoon>
+                        </div>
+                    </div>
+                    <!-- Camiseta 4 -->
+                    <div class="cardProduto">
+                        <img src="../image/Produtos/camisa-removebg-preview.png" alt="camiseta Basica">
+                        <div class="cardTextos">
+                            <h4  class="preco">R$100</h4>
+                            <h5 class="tituloProduto">Camisa da Banda Oficial</h5>
+                            <p class="detalhesProduto">Camiseta de alta qualidade com estampa exclusiva </p>
+                        </div>
+                        <div class="botaoAdd">
+                            <buttoon type="button" data-bs-toggle="modal"
+                            data-bs-target="#camisa4Modal"><img src="../image/Icons/iconeCarrinho.png" alt="shoppingCar"></buttoon>
+                        </div>
+                    </div>
+                    <!-- Camiseta 5 -->
+                    <div class="cardProduto">
+                        <img src="../image/Produtos/camisa-removebg-preview.png" alt="camiseta Basica">
+                        <div class="cardTextos">
+                            <h4  class="preco">R$100</h4>
+                            <h5 class="tituloProduto">Camisa da Banda Oficial</h5>
+                            <p class="detalhesProduto">Camiseta de alta qualidade com estampa exclusiva </p>
+                        </div>
+                        <div class="botaoAdd">
+                            <buttoon type="button" data-bs-toggle="modal"
+                            data-bs-target="#camisa5Modal"><img src="../image/Icons/iconeCarrinho.png" alt="shoppingCar"></buttoon>
+                        </div>
+                    </div>
+                    <!-- Bandana -->
+                    <div class="cardProduto">
+                        <img src="../image/Produtos/bandana-removebg-preview.png"  alt="Bandana">
+                        <div class="cardTextos">
+                            <h4  class="preco">R$100</h4>
+                            <h5 class="tituloProduto">Bandana da Ultima Quimera</h5>
+                            <p class="detalhesProduto">A bandana criada para dar estilo aos fans mais apaixonados </p>
+                        </div>
+                        <div class="botaoAdd">
+                            <buttoon type="button" data-bs-toggle="modal"
+                            data-bs-target="#bandanaModal"><img src="../image/Icons/iconeCarrinho.png" alt="shoppingCar"></buttoon>
+                        </div>
+                    </div>
+                    <!-- Stick Quimerinha -->
+                    <div class="cardProduto">
+                        <img src="../image/Produtos/quimerinhaNFT.png" alt="Adesivo com a mascote da banda">
+                        <div class="cardTextos">
+                            <h4  class="preco">R$100</h4>
+                            <h5 class="tituloProduto">Stick da Ultima Quimera</h5>
+                            <p class="detalhesProduto">A quimerinha para voce levar onde quiser</p>
+                        </div>
+                        <div class="botaoAdd">
+                            <buttoon type="button" data-bs-toggle="modal"
+                            data-bs-target="#stickModal"><img src="../image/Icons/iconeCarrinho.png" alt="shoppingCar"></buttoon>
+                        </div>
+                    </div>
+                    <!-- Chaveiro Quimerinha -->
+                    <div class="cardProduto">
+                        <img src="../image/Produtos/Última-removebg-preview.png" alt="Chaveiro">
+                        <div class="cardTextos">
+                            <h4  class="preco">R$100</h4>
+                            <h5 class="tituloProduto">Chaveiro da Ultima Quimera</h5>
+                            <p class="detalhesProduto">A quimerinha para voce levar suas chaves com estilo.</p>
+                        </div>
+                        <div class="botaoAdd">
+                            <buttoon type="button" data-bs-toggle="modal"
+                            data-bs-target="#chaveiroModal"><img src="../image/Icons/iconeCarrinho.png" alt="shoppingCar"></buttoon>
+                        </div>
+                    </div>
+                    <!-- Poster  -->
+                    <div class="cardProduto">
+                        <img src="../image/ÚltimaQuimera1_files/backGround.heic"  alt="Poster">
+                        <div class="cardTextos">
+                            <h4  class="preco">R$100</h4>
+                            <h5 class="tituloProduto">Poster Exclusivo</h5>
+                            <p class="detalhesProduto">O poster exclusivo criado pelos musicos da banda </p>
+                        </div>
+                            <div class="botaoAdd">
+                                <buttoon type="button" data-bs-toggle="modal"
+                                data-bs-target="#posterModal"><img src="../image/Icons/iconeCarrinho.png" alt="shoppingCar"></buttoon>
+                            </div>
+                    </div>
+                    <!-- Album de Studio -->
+                    <div class="cardProduto">
+                        <img src="../image/ÚltimaQuimera1_files/album.jpg"  alt="Capa do CD">
+                        <div class="cardTextos">
+                            <h4  class="preco">R$100</h4>
+                            <h5 class="tituloProduto">Album da Ultima Quimera</h5>
+                            <p class="detalhesProduto">O primeiro CD gravado em studio<br> com a mais alta qualidade de som! </p>
+                        </div>
+                        <div class="botaoAdd">
+                            <buttoon type="button" data-bs-toggle="modal"
+                            data-bs-target="#albumModal"><img src="../image/Icons/iconeCarrinho.png" alt="shoppingCar"></buttoon>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+        </main>
+        
+        <footer></footer>
+
+        <!-- Modal catalogo de Produtos -->
+
+        <!-- Produto 1 -->
+        <div class="modal" tabindex="-1" id="camisa1Modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">T-Shirt</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="../image/Produtos/camisa-removebg-preview.png" alt="">
+                    <h6>Camiseta de alta qualidade com estampa exclusiva!</h6>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-success comprar" id="btnComprar1">Comprar</button>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Produto 2 -->
+        <div class="modal" tabindex="-1" id="camisa2Modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">T-Shirt</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="../image/Produtos/camisa-removebg-preview.png" alt="">
+                    <h6>Camiseta de alta qualidade com estampa exclusiva!</h6>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-success comprar "id="btnComprar2">Comprar</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- Produto 3 -->
+        <div class="modal" tabindex="-1" id="camisa3Modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">T-Shirt</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="../image/Produtos/camisa-removebg-preview.png" alt="">
+                    <h6>Camiseta de alta qualidade com estampa exclusiva!</h6>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-success comprar"id="btnComprar3">Comprar</button>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Produto 4 -->
+        <div class="modal" tabindex="-1" id="camisa4Modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">T-Shirt</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="../image/Produtos/camisa-removebg-preview.png" alt="">
+                    <h6>Camiseta de alta qualidade com estampa exclusiva!</h6>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-success comprar"id="btnComprar4">Comprar</button>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Produto 5 -->
+        <div class="modal" tabindex="-1" id="camisa5Modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">T-Shirt</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="../image/Produtos/camisa-removebg-preview.png" alt="">
+                    <h6>Camiseta de alta qualidade com estampa exclusiva!</h6>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-success comprar"id="btnComprar5">Comprar</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- Produto 6 -->
+        <div class="modal" tabindex="-1" id="bandanaModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Bandana Estilosa</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="../image/Produtos/bandana-removebg-preview.png" alt="">
+                    <h6>A bandana mais estilosa da cidade.</h6>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-success comprar"id="btnComprar6">Comprar</button>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Produto 7 -->
+        <div class="modal" tabindex="-1" id="stickModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Stick da Quimera</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="../image/Produtos/quimerinhaNFT.png" alt="">
+                    <h6>Uma stick personalizada para colar onde quiser.</h6>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-success comprar"id="btnComprar7">Comprar</button>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Produto 8 -->
+        <div class="modal" tabindex="-1" id="chaveiroModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Chaveiro da Quimera</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="../image/Produtos/Última-removebg-preview.png" alt="">
+                    <h6>Chaveiro de metal em varias cores.</h6>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-success comprar"id="btnComprar8">Comprar</button>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Produto 9 -->
+        <div class="modal" tabindex="-1" id="posterModal">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Poster</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="../image/ÚltimaQuimera1_files/backGround.heic" alt="">
+                    <h6>Um poster exclusivo criado pela banda.</h6>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-success comprar"id="btnComprar9">Comprar</button>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Produto 10 -->
+        <div class="modal" tabindex="-1" id="albumModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">1° Album gravado em Studio</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="../image/ÚltimaQuimera1_files/album.jpg" alt="">
+                    <h6>O CD de alta qualidade gravado em studio com os grandes sucessos da banda.</h6>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-success comprar"id="btnComprar10">Comprar</button>
+                </div>
+                </div>
+            </div>
+        </div>
+<!-- Fim Modal -->
+
+
+
+
+        <!-- Script BootStrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+        <!-- Script Jquery -->
+        <script src="../js/jquery-3.7.1.js"></script>
+        <!-- Script Pessoal -->
+        <script src="../js/arquivo.js"></script>
+    </div>
+</body>
+</html>

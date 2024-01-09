@@ -1,0 +1,49 @@
+/* Geral */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#infinuShow{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+#infinuShow > img{
+    height: 25rem;
+    width: 20rem;
+}
+#carouselTexto2Bloco{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+}
+#chamadaDeShow{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+#conteudoCarousel{
+    width: 100%;
+
+}
+.retencaoCar > img,video,iframe{
+    height: 25rem;
+}
+#retencao{
+    width: 80%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+#botaoPraTras , #botaoPraFrente{
+    height: 25rem !important;
+    width: 6.8rem !important;
+    position: absolute;
+    top: 8.3rem;
+    background-color: rgba(0, 0, 0, 0.349);   
+}
+

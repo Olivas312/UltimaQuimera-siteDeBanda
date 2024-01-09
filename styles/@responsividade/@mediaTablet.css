@@ -1,0 +1,15 @@
+/* Tablet */
+@media screen and (min-width: 768px) and(max-width: 1000px) /*and (orientation: landscape)*/  {
+    #menuNav > #desktopNav{
+        display: none;
+    }
+    #logo > img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    #tituloPrincipal {
+        font-size: 12pt;
+        font-weight: 600;
+        margin-left:1.25rem ;
+    }
+}

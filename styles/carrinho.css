@@ -1,0 +1,35 @@
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.cardCarrinho {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: gray;
+}
+#carrinho{
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    
+}
+.carrinhoItens{
+    display: flex;
+    flex-flow: row wrap  !important;
+    justify-content: space-around;
+}
+.itensDetalhes{
+    display: flex;
+    flex-flow: row wrap !important;
+    justify-content: space-around;
+}
+#finalizandoCompra{
+    display: flex;
+    flex-flow: row wrap!important;
+    justify-content: space-around;
+}

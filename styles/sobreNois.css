@@ -1,0 +1,78 @@
+.containerCardAll{
+    width: 100%;
+    height: 40rem;
+}
+.allBand{
+    flex-flow: column wrap;
+    background-color: #808080a9;
+}
+.allBandImg{
+    width: 25rem ;
+    height: 25rem;
+    cursor: pointer;
+    background-image: url(../image/Integrantes/Bnada.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.saibaMais{
+    width: 25rem ;
+    height: 25rem;
+    cursor: pointer;
+    background-image: url(../image/sm.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+}
+.masterCards{
+    flex-flow: wrap row;
+    columns: 2 ;
+    gap: .6rem;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+.containerCard{
+    width: 15rem;
+    height: 30rem;
+}
+.music{
+    justify-content: space-between;
+    padding: 2rem;
+    background:linear-gradient(157deg, rgba(220,20,60,1) 33%, rgba(0,139,139,1) 72%);
+    text-align: center;
+}
+.musicInstrument{
+    color: #008B8B ;
+    font: bolder;
+    font-size: 32pt;
+}
+.musicImg{
+    width: 7.5rem;
+    height: 15rem;
+}
+.musicName{
+    color:#DC143C ;
+    font-size: 16pt;
+    font-style: italic;
+}
+.musicDescription{
+    color: linear-gradient(157deg, rgba(220,20,60,1) 33%, rgba(0,139,139,1) 72%);
+    font-weight: 500;
+    font-size: larger;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textCardAllband{
+    font-size: 52pt;
+    font-weight: 900;
+    color: #DC143C;
+}
+.esconde{
+    display: none;
+}

@@ -1,0 +1,66 @@
+#login{
+    width: 50%;
+    margin: 0 auto;
+     color: #000000;
+}
+#login > form > fieldset{
+    margin-bottom: 1rem;
+    padding: 3rem;    
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    
+}
+#user  #passWord {
+    margin: 4px;
+    width: 100%;
+}
+label{
+    color:#008B8B ;
+    text-shadow: 2px 2px 2px black;
+    font-size: 18pt;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+input{
+    margin-bottom: 1.5rem;
+}
+input:focus  {
+    border-color: solid 1px #DC143C;
+}
+#cadastreSe{
+    color: #008B8B;
+    text-shadow: 1px 1px 1px black;
+    font-size: 16pt;
+    font-weight: bold;
+    background-color: #8080807c;
+    border: solid 2px #000000;
+    border-radius: 8px ;
+}
+#cadastroButton{
+    text-decoration: none;
+    color:#000000 ;
+    margin-left: 1.8rem;
+    background-color: #ffffff76;
+    border: solid 2px #000000;
+    border-radius: 8px;
+}
+#esquecido{
+    text-decoration: none;
+    text-shadow: 2px 2px 2px black;
+    color: #DC143C;
+    margin-bottom: 1rem;
+}
+#enterButton{
+    margin-top: 5rem;
+    width: 10rem;
+    font-weight: bolder;
+    color: #DC143C;
+    text-shadow: 1px 1px 1px black;
+    background-color: #808080;
+    border: solid 2px #008B8B;
+}

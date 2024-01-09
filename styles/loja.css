@@ -1,0 +1,68 @@
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+#carrinho{
+    text-align: center;
+    text-decoration: none;
+    background-color:rgba(255, 255, 255, 0.391) ;
+}
+
+#catalogo{
+    width: 100%;
+    box-sizing: border-box!important;
+    margin: 0 auto;
+}
+#catalogoProdutos{
+    width: 80%;
+    margin: 0 auto;
+    box-sizing: border-box!important;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.cardProduto{
+    width: 10rem;
+    gap: .02rem; 
+    margin-bottom: .02rem;
+    margin-left: .02rem;
+    background-color: rgba(255, 255, 255, 0.391);
+    text-align: center;
+
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.cardProduto > img{
+    width: 5rem;
+    padding: .01rem;
+}
+.botaoAdd{
+    width: 2rem;
+    height: 2rem;
+    background-color: rgb(57, 255, 47);
+    border: solid .09rem black;
+    border-radius: .4rem;
+    cursor:pointer ;
+}
+.preco{
+    font-size: 12pt;
+    color:  #DC143C;
+    background-color: black;
+}
+.tituloProduto{
+    font-size: 8pt;
+    font-weight: 900;
+}
+.detalhesProduto{
+    font-size: 8pt;
+}
+.modal-body > img{
+    width: 10rem;
+    height: 10rem;
+}
